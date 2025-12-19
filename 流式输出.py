@@ -11,7 +11,7 @@ agentscope.init(
             "config_name": "my_config",
             "model_type": "openai_chat",
             "model_name": "deepseek-chat",
-            "api_key": "sk-cb5f85729f2d4a4a8ea5342ed9d9c7ef",
+            "api_key": "sk-XXXXX",
             "stream": True,
             "client_args": {
                 "base_url": "https://api.deepseek.com/v1"
@@ -78,4 +78,5 @@ user = UserAgent("user")
 msg = None
 while True:
     msg = user()
+
     msg = agent(msg)
